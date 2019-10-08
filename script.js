@@ -59,6 +59,8 @@ $(document).ready(function () {
         $(".animalButtonNew").on("click", function () {
             console.log(queryURL);
 
+            $("#gifs-here").empty();
+
             $.ajax({
                 url: queryURL,
                 method: "GET"
@@ -84,7 +86,6 @@ $(document).ready(function () {
 
         });
     });
-    
     
    
 
