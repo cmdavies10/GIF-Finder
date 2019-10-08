@@ -1,5 +1,5 @@
-var animals = ["dog", "cat", "rabbit", "hamster", "skunk"];
-var search;
+var animals = ["dog", "cat", "rabbit", "hamster", "skunk", "goldfish", "bird", "turtle"];
+// var search;
 
 
 window.onload = function () {
@@ -21,10 +21,10 @@ $(document).ready(function () {
         var apiKey = "Kfdsg3pgJEX2b3rt0Ofr1yrjNig3NFli";
         var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + search + "&api_key=" + apiKey + "&limit=" + limit;
 
-        console.log($(this).val().trim());
+        // console.log($(this).val().trim());
         
-        console.log("===");
-        console.log(search);
+        // console.log("===");
+        // console.log(search);
 
         $("#gifs-here").empty();
         
@@ -35,20 +35,19 @@ $(document).ready(function () {
         }).then(function (response) {
             console.log(queryURL);
             console.log(response);
-            console.log(response.data[0].url)
+            // console.log(response.data[0].url)
             var results = response.data;
 
             for (var i = 0; i < results.length; i++) {
                 var animalDIV = $("<div>");
+                var p = $("<p>").text("Rating: " + results[i].rating);
                 var animalImage = $("<img>");
                 animalImage.attr("src", results[i].images.fixed_height.url);
+                animalDIV.append(p);
                 animalDIV.append(animalImage);
                 $("#gifs-here").append(animalDIV);
 
             };
-
-
-            
         });
    });
 
@@ -60,7 +59,6 @@ $(document).ready(function () {
         b.addClass("animalButton btn btn-lg btn-primary");
         b.attr("value", newButton);
         $("#buttons").append(b);
-
 
     })
     
