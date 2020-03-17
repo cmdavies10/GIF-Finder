@@ -1,12 +1,12 @@
-# GifTastic
+# GIF-Finder
 
 ### Overview
 
-**GifTastic** is a dynamic web page that generates gif animates of human emotions. When the user clicks on a desired button the App will grab gif animates from GIPHY API and present them on the user. When the user clicks one of them it will become static, non-animated gif images. If clicked again it will go back to an animated state.
+**GIF-Finder** is a web-based application that allows users to search GIPHY APIs extensive library, returning relevant GIFs. Users are then given the option to toggle each GIF between static and animated.
 
 The user can also add new selection by writing in the input. Click on the button to see gifs!
 <br>
-Welcome to [GifTastic](https://cmdavies10.github.io/GifTastic/). Enjoy!
+Welcome to [GIF-Finder](https://cmdavies10.github.io/Gif-Finder/). Enjoy!
 
 ### INSTALLATION
 
