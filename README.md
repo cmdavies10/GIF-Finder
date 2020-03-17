@@ -2,7 +2,7 @@
 
 ### Overview
 
-**GIF-Finder** is a web-based application that allows users to search GIPHY APIs extensive library, returning relevant GIFs. Users are then given the option to toggle each GIF between static and animated.
+**GIF-Finder** is a web-based application that allows users to search GIPHY APIs extensive library, returning relevant GIFs. Users are then given the option to toggle each GIF between static and animated states.
 
 The user can also add new selection by writing in the input. Click on the button to see gifs!
 <br>
