@@ -6,7 +6,7 @@
 
 The user can also add new selection by writing in the input. Click on the button to see gifs!
 <br>
-Welcome to [GIF-Finder](https://cmdavies10.github.io/Gif-Finder/). Enjoy!
+Welcome to [GIF-Finder](https://cmdavies10.github.io/GIF-Finder/). Enjoy!
 
 ### INSTALLATION
 
